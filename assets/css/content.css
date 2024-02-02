@@ -1,0 +1,65 @@
+@import url("shared.css");
+
+.preparation-time {
+    background-color: var(--color-rose-white);
+    border-radius: 12px;
+    padding-block: 30px;
+    padding-inline: 40px;
+    margin-block: 38px;
+}
+
+.preparation-time__title {
+    color: var(--color-dark-raspberry);
+    font-family: var(--ff-outfit);
+    margin-bottom: 20px;
+}
+
+.preparation-time__list {
+    padding-inline: 22px;
+}
+
+.preparation-time__item {
+    color: var(--color-wenge-brown);
+}
+
+.preparation-time__item:not(:last-child) {
+    padding-bottom: 14px;
+}
+
+.preparation-time__item::marker {
+    color: var(--color-dark-raspberry);
+}
+
+.table__title {
+    color: var(--color-nutmeg);
+    font-family: var(--ff-youngserif);
+    margin-block: 0 20px;
+}
+
+.table__description {
+    color: var(--color-wenge-brown);
+}
+
+.table__content {
+    width: 100%;
+}
+
+.table__content-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-block: 16px;
+}
+
+.table__content-row:not(:last-child) {
+    border-bottom: 1px solid var(--color-light-gray);
+}
+
+.table__content-label {
+    color: var(--color-wenge-brown);
+    margin-inline: 30px 0;
+}
+
+.table__content-value {
+    color: var(--color-nutmeg);
+    font-weight: 700;
+}

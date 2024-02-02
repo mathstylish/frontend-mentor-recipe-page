@@ -1,0 +1,27 @@
+@import url("shared.css");
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--color-eggshell);
+    font-family: var(--ff-outfit);
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+.wrapper {
+    width: min(100%, 736px);
+    margin-inline: auto;
+
+    background-color: var(--color-white);
+}

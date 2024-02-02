@@ -1,0 +1,17 @@
+@media (min-width: 375px) {
+    .wrapper {
+        width: min(100% - 2rem, 736px);
+        margin-block: 90px;
+        padding: 36px;
+        border-radius: 24px;
+    }
+
+    .wrapper-img {
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    .padding-inline {
+        padding-inline: 0;
+    }
+}
